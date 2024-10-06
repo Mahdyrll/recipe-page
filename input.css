@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'outfit';
+        src: url('./assets/fonts/outfit/static/Outfit-Black.ttf');
+    }
+
+    @font-face {
+        font-family: 'outfitBold';
+        src: url('./assets/fonts/outfit/static/Outfit-Bold.ttf');
+    }
+
+    @font-face {
+        font-family: 'outfitExtrabold';
+        src: url('./assets/fonts/outfit/static/Outfit-ExtraBold.ttf');
+    }
+
+    @font-face {
+        font-family: 'outfitExtraLight';
+        src: url('./assets/fonts/outfit/static/Outfit-ExtraLight.ttf');
+    }
+
+    @font-face {
+        font-family: 'outfitLight';
+        src: url('./assets/fonts/outfit/static/Outfit-Light.ttf');
+    }
+
+    @font-face {
+        font-family: 'outfitMedium';
+        src: url('./assets/fonts/outfit/static/Outfit-Medium.ttf');
+    }
+
+    @font-face {
+        font-family: 'outfitRegular';
+        src: url('./assets/fonts/outfit/static/Outfit-Regular.ttf');
+    }
+
+    @font-face {
+        font-family: 'outfitSemiBold';
+        src: url('./assets/fonts/outfit/static/Outfit-SemiBold.ttf');
+    }
+
+    @font-face {
+        font-family: 'outfitThin';
+        src: url('./assets/fonts/outfit/static/Outfit-Thin.ttf');
+    }
+
+    @font-face {
+        font-family: 'outfitVar';
+        src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+    }
+
+    @font-face {
+        font-family: 'youngSerif';
+        src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+    }
+}
+
+@layer components {
+    .Title {
+        @apply text-[#874931] font-young-serif text-3xl
+    }
+
+    .paragraph {
+        @apply text-stone-500 text-[17px] font-outfit-regular
+    }
+}
